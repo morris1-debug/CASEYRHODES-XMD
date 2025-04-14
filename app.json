@@ -70,7 +70,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REPLY": {
@@ -81,20 +81,20 @@
 
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
-      "required": true,
+      "required": false,
       "value": "*🎉👀 sᴇᴇɴ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🚀🔥*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ᴄᴀsᴇʏʀʜᴏᴅᴇs 🫅"
+      "value": "MORRIS👽"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
-      "required": false,
-      "value": "254112192119"
+      "required": true,
+      "value": "2348109824616"
  },
 
     "BOT_NAME": {
@@ -125,7 +125,7 @@
 
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     
@@ -138,7 +138,7 @@
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
 
     "AUTO_REACT": {
